@@ -28,9 +28,10 @@ int arraylist[n];
             arraylist[i]   = aux;
         }
     }
-
+printf("\t");	
 	for(i=0; i<n; i++){
 		printf("%d\t",arraylist[i]);
 	}
+
 
 }
